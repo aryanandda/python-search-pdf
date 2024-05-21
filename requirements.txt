@@ -1,2 +1,3 @@
 spacy
 PyPDF2
+python-multipart

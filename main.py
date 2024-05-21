@@ -10,7 +10,7 @@ nlp = spacy.load("en_core_web_sm")
 search_terms = {
     "Resource Interdependence": ["partnership", "collaboration", "joint venture", "mutual reliance"],
     "Joint Value Creation": ["co-development", "joint project", "community project"],
-    "Stakeholder Inclusivity": ["inclusive decision-making", "stakeholder panel", "community engagement", "superiority of TL as a leadership style in explaining the behavior of leaders"],
+    "Stakeholder Inclusivity": ["inclusive decision-making", "stakeholder panel", "community engagement"],
     "Dynamic Stakeholder Engagement": ["strategy adaptation", "responsive strategy", "feedback loop"]
 }
 
@@ -40,7 +40,7 @@ def process_documents(directory):
     return results
 
 # Specify the directory containing the documents
-directory = '/mnt/d/Arya Nanda/Work/Project/Frans'
+directory = './'
 results = process_documents(directory)
 
 # Display or save the results

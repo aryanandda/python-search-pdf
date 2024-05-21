@@ -1,4 +1,4 @@
-# pdf-keywords
+# python-search-pdf
 
 Search keywords in pdf
 
